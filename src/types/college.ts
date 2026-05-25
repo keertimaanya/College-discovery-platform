@@ -1,38 +1,46 @@
-export interface CollegeStats {
-  students: number;
-  facultyRatio: string;
-  employmentRate: number;
+export interface Placement {
+  averagePackage: number
+  highestPackage: number
+  topRecruiters: string[]
 }
 
-export interface CollegeRequirements {
-  gpa?: number;
-  sat?: number;
-  act?: number;
+export interface Review {
+  id: string
+  author: string
+  rating: number
+  comment: string
+  date: string
+}
+
+export interface Course {
+  name: string
+  duration: string
+  fees: number
 }
 
 export interface College {
-  id: string;
-  name: string;
-  location: string;
-  rating: number;
-  tuition: number;
-  admissionRate: number;
-  ranking: number;
-  featured: boolean;
-  logo: string;
-  image: string;
-  description: string;
-  website: string;
-  type: "public" | "private";
-  programs: string[];
-  requirements: CollegeRequirements;
-  stats: CollegeStats;
+  id: string
+  name: string
+  location: string
+  state: string
+  fees: number
+  rating: number
+  image: string
+  type: "Government" | "Private" | "Deemed"
+  courses: Course[]
+  placements: Placement
+  reviews: Review[]
+  overview: string
+  exams: string[]
+  established: number
 }
 
-export interface FilterOptions {
-  search: string;
-  type: "all" | "public" | "private";
-  maxTuition: number;
-  minRating: number;
-  program: string;
+export interface FilterState {
+  search: string
+  state: string
+  type: string
+  minFees: number
+  maxFees: number
+  minRating: number
+  exam: string
 }
