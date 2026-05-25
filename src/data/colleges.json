@@ -1,1 +1,922 @@
-[]
+[
+  {
+    "id": "iit-bombay",
+    "name": "Indian Institute of Technology Bombay (IITB)",
+    "location": "Mumbai",
+    "state": "Maharashtra",
+    "fees": 220000,
+    "rating": 4.9,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Government",
+    "courses": [
+      { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 220000 },
+      { "name": "B.Tech Electrical Engineering", "duration": "4 Years", "fees": 220000 },
+      { "name": "M.Tech Microelectronics", "duration": "2 Years", "fees": 120000 }
+    ],
+    "placements": {
+      "averagePackage": 2180000,
+      "highestPackage": 16800000,
+      "topRecruiters": ["Google", "Microsoft", "Qualcomm", "Uber"]
+    },
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "Aarav Mehta",
+        "rating": 5.0,
+        "comment": "Unmatched research culture, world-class faculty, and the campus life at Powai is unforgettable.",
+        "date": "2026-03-12"
+      },
+      {
+        "id": "r2",
+        "author": "Sneha Patil",
+        "rating": 4.8,
+        "comment": "Academic curriculum is rigorous, but placements and peer learning are absolutely worth it.",
+        "date": "2026-04-15"
+      },
+      {
+        "id": "r3",
+        "author": "Rohan Deshmukh",
+        "rating": 4.9,
+        "comment": "Mood Indigo and Techfest are amazing. Facilities are top notch, highly recommended.",
+        "date": "2026-05-01"
+      }
+    ],
+    "overview": "Established in 1958, IIT Bombay is one of the premier public engineering universities in Asia, famous for its cutting-edge research, tech innovations, and highly competitive admissions.",
+    "exams": ["JEE Advanced", "GATE"],
+    "established": 1958
+  },
+  {
+    "id": "iit-delhi",
+    "name": "Indian Institute of Technology Delhi (IITD)",
+    "location": "New Delhi",
+    "state": "Delhi",
+    "fees": 225000,
+    "rating": 4.8,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Government",
+    "courses": [
+      { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 225000 },
+      { "name": "B.Tech Mathematics and Computing", "duration": "4 Years", "fees": 225000 },
+      { "name": "M.Tech Telecommunication Technology", "duration": "2 Years", "fees": 130000 }
+    ],
+    "placements": {
+      "averagePackage": 2050000,
+      "highestPackage": 15000000,
+      "topRecruiters": ["Microsoft", "Goldman Sachs", "Intel", "Nvidia"]
+    },
+    "reviews": [
+      {
+        "id": "r4",
+        "author": "Amit Sharma",
+        "rating": 4.9,
+        "comment": "Located in the heart of Delhi, providing high corporate exposure and excellent academic guidance.",
+        "date": "2026-02-18"
+      },
+      {
+        "id": "r5",
+        "author": "Priya Sen",
+        "rating": 4.7,
+        "comment": "Excellent coding culture. The competitive atmosphere drives you to perform at your best.",
+        "date": "2026-04-05"
+      },
+      {
+        "id": "r6",
+        "author": "Vikram Malhotra",
+        "rating": 4.8,
+        "comment": "Stellar campus life, state-of-the-art incubation centre, and great startup support.",
+        "date": "2026-05-10"
+      }
+    ],
+    "overview": "IIT Delhi is a top-ranked institute of national importance located in Hauz Khas, New Delhi. It is globally recognized for training leaders and producing groundbreaking scientific work.",
+    "exams": ["JEE Advanced", "GATE"],
+    "established": 1961
+  },
+  {
+    "id": "nit-surathkal",
+    "name": "National Institute of Technology Karnataka (NITK)",
+    "location": "Surathkal",
+    "state": "Karnataka",
+    "fees": 150000,
+    "rating": 4.6,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Government",
+    "courses": [
+      { "name": "B.Tech Information Technology", "duration": "4 Years", "fees": 150000 },
+      { "name": "B.Tech Electronics and Communication Engineering", "duration": "4 Years", "fees": 150000 },
+      { "name": "M.Tech Computer Science and Engineering", "duration": "2 Years", "fees": 90000 }
+    ],
+    "placements": {
+      "averagePackage": 1520000,
+      "highestPackage": 5400000,
+      "topRecruiters": ["Amazon", "Salesforce", "Cisco", "Oracle"]
+    },
+    "reviews": [
+      {
+        "id": "r7",
+        "author": "Karthik Gowda",
+        "rating": 4.7,
+        "comment": "Only college in India with its own private beach! Campus life and peer culture are absolute gold.",
+        "date": "2026-01-20"
+      },
+      {
+        "id": "r8",
+        "author": "Anjali Hegde",
+        "rating": 4.5,
+        "comment": "Awesome placements, especially in CS/IT branches. Hostels are comfortable and food is decent.",
+        "date": "2026-03-14"
+      },
+      {
+        "id": "r9",
+        "author": "Srinivas Rao",
+        "rating": 4.6,
+        "comment": "The technical clubs (IEEE, ACM) are highly active. Great opportunities for core and IT jobs.",
+        "date": "2026-05-02"
+      }
+    ],
+    "overview": "NITK Surathkal is one of the leading technical institutions in India, beautifully situated along the shores of the Arabian Sea in Karnataka.",
+    "exams": ["JEE Main", "GATE"],
+    "established": 1960
+  },
+  {
+    "id": "bits-pilani",
+    "name": "Birla Institute of Technology and Science (BITS) Pilani",
+    "location": "Pilani",
+    "state": "Rajasthan",
+    "fees": 540000,
+    "rating": 4.8,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Private",
+    "courses": [
+      { "name": "B.E. Computer Science", "duration": "4 Years", "fees": 540000 },
+      { "name": "B.E. Electronics and Instrumentation", "duration": "4 Years", "fees": 540000 },
+      { "name": "M.Sc. Economics (Dual Degree)", "duration": "5 Years", "fees": 540000 }
+    ],
+    "placements": {
+      "averagePackage": 1980000,
+      "highestPackage": 6070000,
+      "topRecruiters": ["Apple", "Google", "JP Morgan Chase", "Morgan Stanley"]
+    },
+    "reviews": [
+      {
+        "id": "r10",
+        "author": "Aditya Birla",
+        "rating": 4.9,
+        "comment": "Zero attendance policy gives you maximum freedom to pursue coding, startups, or extra-curriculars.",
+        "date": "2026-03-25"
+      },
+      {
+        "id": "r11",
+        "author": "Meera Sharma",
+        "rating": 4.7,
+        "comment": "The Practice School (PS-I and PS-II) internships provide amazing industry experience and PPOs.",
+        "date": "2026-04-18"
+      },
+      {
+        "id": "r12",
+        "author": "Yash Vardhan",
+        "rating": 4.8,
+        "comment": "Stellar alumni network. Pilani campus has an unmatched vintage, cozy feel.",
+        "date": "2026-05-11"
+      }
+    ],
+    "overview": "BITS Pilani is a prestigious private deemed university in Rajasthan, legendary for its unique zero-attendance policy, strong alumni network, and excellent placement records.",
+    "exams": ["BITSAT"],
+    "established": 1964
+  },
+  {
+    "id": "vit-vellore",
+    "name": "Vellore Institute of Technology (VIT)",
+    "location": "Vellore",
+    "state": "Tamil Nadu",
+    "fees": 198000,
+    "rating": 4.2,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Deemed",
+    "courses": [
+      { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 198000 },
+      { "name": "B.Tech Biotechnology", "duration": "4 Years", "fees": 176000 },
+      { "name": "M.Tech Software Engineering", "duration": "5 Years (Integrated)", "fees": 185000 }
+    ],
+    "placements": {
+      "averagePackage": 920000,
+      "highestPackage": 10200000,
+      "topRecruiters": ["Microsoft", "Intel", "TCS", "Cognizant"]
+    },
+    "reviews": [
+      {
+        "id": "r13",
+        "author": "Prakash Kumar",
+        "rating": 4.3,
+        "comment": "Huge infrastructure, massive student crowd, and excellent placement opportunities for hard-working students.",
+        "date": "2026-02-14"
+      },
+      {
+        "id": "r14",
+        "author": "Divya Nair",
+        "rating": 4.0,
+        "comment": "Campus rules are strict regarding curfew timings, but the academic freedom and labs are top-notch.",
+        "date": "2026-03-30"
+      },
+      {
+        "id": "r15",
+        "author": "Ranjith Balan",
+        "rating": 4.3,
+        "comment": "Fully Flexible Credit System (FFCS) lets you choose your own teachers and timetables.",
+        "date": "2026-04-25"
+      }
+    ],
+    "overview": "Established in 1984, VIT Vellore is a leading private deemed university in Tamil Nadu, recognized as an Institution of Eminence by the Government of India.",
+    "exams": ["VITEEE"],
+    "established": 1984
+  },
+  {
+    "id": "mit-manipal",
+    "name": "Manipal Institute of Technology (MIT)",
+    "location": "Manipal",
+    "state": "Karnataka",
+    "fees": 435000,
+    "rating": 4.4,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Deemed",
+    "courses": [
+      { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 435000 },
+      { "name": "B.Tech Aeronautical Engineering", "duration": "4 Years", "fees": 385000 },
+      { "name": "M.Tech Structural Engineering", "duration": "2 Years", "fees": 210000 }
+    ],
+    "placements": {
+      "averagePackage": 1250000,
+      "highestPackage": 5475000,
+      "topRecruiters": ["Microsoft", "Amazon", "Schneider Electric", "Deloitte"]
+    },
+    "reviews": [
+      {
+        "id": "r16",
+        "author": "Rahul Shenoy",
+        "rating": 4.5,
+        "comment": "Manipal offers an amazing student-friendly town experience. Best place to grow personally and professionally.",
+        "date": "2026-02-28"
+      },
+      {
+        "id": "r17",
+        "author": "Keerthi Prasad",
+        "rating": 4.3,
+        "comment": "Brilliant academic curriculum. Modern infrastructure, and excellent library facility.",
+        "date": "2026-03-20"
+      },
+      {
+        "id": "r18",
+        "author": "Tushar Kapoor",
+        "rating": 4.4,
+        "comment": "Hostels are like hotels and the college atmosphere is very cosmopolitan. Absolutely loved my time here.",
+        "date": "2026-04-12"
+      }
+    ],
+    "overview": "MIT Manipal is a constituent college of MAHE, a highly respected private deemed university in Karnataka, known for its premium lifestyle and strong tech curriculum.",
+    "exams": ["MET", "JEE Main"],
+    "established": 1957
+  },
+  {
+    "id": "iit-kharagpur",
+    "name": "Indian Institute of Technology Kharagpur (IITKGP)",
+    "location": "Kharagpur",
+    "state": "West Bengal",
+    "fees": 223000,
+    "rating": 4.7,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Government",
+    "courses": [
+      { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 223000 },
+      { "name": "Integrated M.Sc. Exploration Geophysics", "duration": "5 Years", "fees": 223000 },
+      { "name": "B.Arch Architecture and Regional Planning", "duration": "5 Years", "fees": 225000 }
+    ],
+    "placements": {
+      "averagePackage": 1950000,
+      "highestPackage": 24000000,
+      "topRecruiters": ["Google", "Microsoft", "Apple", "Barclays"]
+    },
+    "reviews": [
+      {
+        "id": "r19",
+        "author": "Siddharth Roy",
+        "rating": 4.8,
+        "comment": "Largest campus in India! Infinite options for sports, clubs, and research. Truly life-transforming.",
+        "date": "2026-03-01"
+      },
+      {
+        "id": "r20",
+        "author": "Riya Das",
+        "rating": 4.6,
+        "comment": "Illumination festival (Illu) and Spring Fest are awesome. Placements are solid every single year.",
+        "date": "2026-04-03"
+      },
+      {
+        "id": "r21",
+        "author": "Ankit Ghosh",
+        "rating": 4.7,
+        "comment": "Highly skilled peers. Teachers are legends in their fields. Research funding is exceptional.",
+        "date": "2026-05-15"
+      }
+    ],
+    "overview": "IIT Kharagpur was the first of the IITs to be established (in 1951), and has the largest campus, offering a vast array of disciplines including law and management.",
+    "exams": ["JEE Advanced", "GATE"],
+    "established": 1951
+  },
+  {
+    "id": "coep-pune",
+    "name": "COEP Technological University (COEP)",
+    "location": "Pune",
+    "state": "Maharashtra",
+    "fees": 135000,
+    "rating": 4.5,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Government",
+    "courses": [
+      { "name": "B.Tech Computer Engineering", "duration": "4 Years", "fees": 135000 },
+      { "name": "B.Tech Mechanical Engineering", "duration": "4 Years", "fees": 135000 },
+      { "name": "M.Tech Control Systems", "duration": "2 Years", "fees": 95000 }
+    ],
+    "placements": {
+      "averagePackage": 950000,
+      "highestPackage": 5050000,
+      "topRecruiters": ["TCS", "Barclays", "Mercedes-Benz", "Cognizant"]
+    },
+    "reviews": [
+      {
+        "id": "r22",
+        "author": "Pranav Joshi",
+        "rating": 4.6,
+        "comment": "One of the oldest colleges in Asia. Rich legacy and unbeatable corporate connect in Pune.",
+        "date": "2026-02-10"
+      },
+      {
+        "id": "r23",
+        "author": "Sayali Kulkarni",
+        "rating": 4.4,
+        "comment": "Campus is situated beautifully along the Mula river. Academic reputation is highly respected in the industry.",
+        "date": "2026-03-24"
+      },
+      {
+        "id": "r24",
+        "author": "Abhishek More",
+        "rating": 4.5,
+        "comment": "Outstanding technical clubs, like the Satellite Team and Baja SAE. Pure practical learning.",
+        "date": "2026-05-08"
+      }
+    ],
+    "overview": "Established in 1854, COEP in Pune is the third oldest engineering college in Asia, offering a rich historical legacy combined with modern technical programs.",
+    "exams": ["MHT CET", "JEE Main"],
+    "established": 1854
+  },
+  {
+    "id": "rvce-bangalore",
+    "name": "R.V. College of Engineering (RVCE)",
+    "location": "Bengaluru",
+    "state": "Karnataka",
+    "fees": 250000,
+    "rating": 4.4,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Private",
+    "courses": [
+      { "name": "B.E. Computer Science and Engineering", "duration": "4 Years", "fees": 250000 },
+      { "name": "B.E. Information Science and Engineering", "duration": "4 Years", "fees": 250000 },
+      { "name": "M.Tech VLSI Design and Embedded Systems", "duration": "2 Years", "fees": 150000 }
+    ],
+    "placements": {
+      "averagePackage": 1150000,
+      "highestPackage": 6200000,
+      "topRecruiters": ["Microsoft", "Cisco", "Intel", "Walmart Global Tech"]
+    },
+    "reviews": [
+      {
+        "id": "r25",
+        "author": "Nikith R",
+        "rating": 4.5,
+        "comment": "If you want placements in Bangalore, RVCE is next only to IISc. Insane amount of core and software companies visit.",
+        "date": "2026-01-18"
+      },
+      {
+        "id": "r26",
+        "author": "Shruti Murthy",
+        "rating": 4.3,
+        "comment": "Academics are strict, but the campus location on Mysore Road and exposure to IT hub is top-tier.",
+        "date": "2026-03-22"
+      },
+      {
+        "id": "r27",
+        "author": "Vinayak Naik",
+        "rating": 4.4,
+        "comment": "Unbelievable coding culture and very supportive senior community.",
+        "date": "2026-05-14"
+      }
+    ],
+    "overview": "RVCE Bangalore is a highly prestigious self-financing engineering institution in Karnataka, famous for its stellar placement rates in Bangalore's tech ecosystem.",
+    "exams": ["COMEDK", "KCET", "JEE Main"],
+    "established": 1963
+  },
+  {
+    "id": "srm-chennai",
+    "name": "SRM Institute of Science and Technology",
+    "location": "Chennai",
+    "state": "Tamil Nadu",
+    "fees": 260000,
+    "rating": 4.1,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Deemed",
+    "courses": [
+      { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 260000 },
+      { "name": "B.Tech Aerospace Engineering", "duration": "4 Years", "fees": 310000 },
+      { "name": "M.C.A. Computer Applications", "duration": "2 Years", "fees": 120000 }
+    ],
+    "placements": {
+      "averagePackage": 780000,
+      "highestPackage": 4500000,
+      "topRecruiters": ["TCS", "Wipro", "Amazon", "Capgemini"]
+    },
+    "reviews": [
+      {
+        "id": "r28",
+        "author": "Arun Kumar",
+        "rating": 4.2,
+        "comment": "Kattankulathur campus is massive! Very diverse student crowd from all over India.",
+        "date": "2026-02-20"
+      },
+      {
+        "id": "r29",
+        "author": "Simranjeet Kaur",
+        "rating": 4.0,
+        "comment": "Lots of opportunities to participate in research and international exchanges, but class strength is huge.",
+        "date": "2026-03-15"
+      },
+      {
+        "id": "r30",
+        "author": "Vikas Krishnan",
+        "rating": 4.1,
+        "comment": "Brilliant facilities, high-end labs, and clean hostels.",
+        "date": "2026-04-18"
+      }
+    ],
+    "overview": "SRM Chennai is a massive private deemed university with a modern campus in Kattankulathur, offering excellent educational amenities and wide recruiter reach.",
+    "exams": ["SRMJEEE", "JEE Main"],
+    "established": 1985
+  },
+  {
+    "id": "jadavpur-university",
+    "name": "Jadavpur University (JU)",
+    "location": "Kolkata",
+    "state": "West Bengal",
+    "fees": 50000,
+    "rating": 4.8,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Government",
+    "courses": [
+      { "name": "B.E. Computer Science and Engineering", "duration": "4 Years", "fees": 2400 },
+      { "name": "B.E. Electronics and Telecommunication", "duration": "4 Years", "fees": 2400 },
+      { "name": "M.E. Software Engineering", "duration": "2 Years", "fees": 24000 }
+    ],
+    "placements": {
+      "averagePackage": 1480000,
+      "highestPackage": 8500000,
+      "topRecruiters": ["Google", "Amazon", "Texas Instruments", "PwC"]
+    },
+    "reviews": [
+      {
+        "id": "r31",
+        "author": "Debabrata Roy",
+        "rating": 4.9,
+        "comment": "Unbelievably low fees (under 10,000 total!) with average packages rivaling top NITs. The ROI is unmatched globally.",
+        "date": "2026-03-05"
+      },
+      {
+        "id": "r32",
+        "author": "Shreyasi Banik",
+        "rating": 4.7,
+        "comment": "JU promotes a free-thinking environment and deep academic independence. Top-tier laboratory support.",
+        "date": "2026-04-10"
+      },
+      {
+        "id": "r33",
+        "author": "Sayan Das",
+        "rating": 4.8,
+        "comment": "A premium hub in the East. Culture, debate clubs, and placement stats are absolutely stellar.",
+        "date": "2026-05-12"
+      }
+    ],
+    "overview": "Established in 1955, Jadavpur University is a premier state-funded public university in Kolkata, famous for its exceptionally low fees and exceptionally high return on investment.",
+    "exams": ["WBJEE"],
+    "established": 1955
+  },
+  {
+    "id": "dtu-delhi",
+    "name": "Delhi Technological University (DTU)",
+    "location": "New Delhi",
+    "state": "Delhi",
+    "fees": 219000,
+    "rating": 4.6,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Government",
+    "courses": [
+      { "name": "B.Tech Computer Science", "duration": "4 Years", "fees": 219000 },
+      { "name": "B.Tech Software Engineering", "duration": "4 Years", "fees": 219000 },
+      { "name": "M.Tech Computer Science and Engineering", "duration": "2 Years", "fees": 166000 }
+    ],
+    "placements": {
+      "averagePackage": 1540000,
+      "highestPackage": 8200000,
+      "topRecruiters": ["Microsoft", "Amazon", "Adobe", "Uber"]
+    },
+    "reviews": [
+      {
+        "id": "r34",
+        "author": "Sandeep Tanwar",
+        "rating": 4.7,
+        "comment": "Formerly known as DCE, it has an immense brand value, a sprawling green campus, and a legendary coding culture.",
+        "date": "2026-01-12"
+      },
+      {
+        "id": "r35",
+        "author": "Aakriti Gupta",
+        "rating": 4.5,
+        "comment": "Corporate exposure in NCR is fantastic. High placement rates in top product companies.",
+        "date": "2026-03-26"
+      },
+      {
+        "id": "r36",
+        "author": "Pranav Bajaj",
+        "rating": 4.6,
+        "comment": "Engifest is the biggest fest in Delhi! Awesome student facilities and great sports complex.",
+        "date": "2026-04-29"
+      }
+    ],
+    "overview": "Formerly Delhi College of Engineering (DCE), DTU is a premier public university in Rohini, New Delhi, renowned for its strong historical background and top corporate recruiting.",
+    "exams": ["JEE Main"],
+    "established": 1941
+  },
+  {
+    "id": "nsut-delhi",
+    "name": "Netaji Subhas University of Technology (NSUT)",
+    "location": "New Delhi",
+    "state": "Delhi",
+    "fees": 219000,
+    "rating": 4.5,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Government",
+    "courses": [
+      { "name": "B.Tech Computer Science and Engineering (IoT)", "duration": "4 Years", "fees": 219000 },
+      { "name": "B.Tech Electronics and Communication Engineering", "duration": "4 Years", "fees": 219000 },
+      { "name": "M.Tech Signal Processing", "duration": "2 Years", "fees": 125000 }
+    ],
+    "placements": {
+      "averagePackage": 1450000,
+      "highestPackage": 7600000,
+      "topRecruiters": ["Google", "Salesforce", "Atlassian", "PhonePe"]
+    },
+    "reviews": [
+      {
+        "id": "r37",
+        "author": "Rohit Verma",
+        "rating": 4.6,
+        "comment": "Amazing coding crowd. Very strong competitive programming community.",
+        "date": "2026-02-15"
+      },
+      {
+        "id": "r38",
+        "author": "Deepika Singh",
+        "rating": 4.4,
+        "comment": "Spacious campus in Dwarka. Excellent placements, comparable to top IITs.",
+        "date": "2026-03-18"
+      },
+      {
+        "id": "r39",
+        "author": "Abhay Saxena",
+        "rating": 4.5,
+        "comment": "Very strict academic rules on attendance, but the placement numbers make up for it.",
+        "date": "2026-05-04"
+      }
+    ],
+    "overview": "NSUT, formerly NSIT, is a premier state public university in Dwarka, Delhi. It is highly sought after for its exceptional placements in technology sectors.",
+    "exams": ["JEE Main"],
+    "established": 1983
+  },
+  {
+    "id": "symbiosis-pune",
+    "name": "Symbiosis Institute of Technology (SIT)",
+    "location": "Pune",
+    "state": "Maharashtra",
+    "fees": 300000,
+    "rating": 3.9,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Private",
+    "courses": [
+      { "name": "B.Tech Artificial Intelligence and Machine Learning", "duration": "4 Years", "fees": 300000 },
+      { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 280000 },
+      { "name": "M.Tech Embedded Systems", "duration": "2 Years", "fees": 190000 }
+    ],
+    "placements": {
+      "averagePackage": 720000,
+      "highestPackage": 3650000,
+      "topRecruiters": ["Microsoft", "Symantec", "Amdocs", "Capgemini"]
+    },
+    "reviews": [
+      {
+        "id": "r40",
+        "author": "Tanmay Sawant",
+        "rating": 4.0,
+        "comment": "Lavale campus is extremely beautiful, located on top of a hill. Great infrastructure and liberal crowd.",
+        "date": "2026-02-11"
+      },
+      {
+        "id": "r41",
+        "author": "Radhika Sen",
+        "rating": 3.8,
+        "comment": "Decent placements for CS/IT. The academic pressure is moderate, giving time for hobbies.",
+        "date": "2026-04-01"
+      },
+      {
+        "id": "r42",
+        "author": "Gaurav Shinde",
+        "rating": 3.9,
+        "comment": "Sports facilities are top-notch (swimming pool, gym, etc.). Excellent campus food.",
+        "date": "2026-04-20"
+      }
+    ],
+    "overview": "SIT Pune is a prominent constituent institute of Symbiosis International University, famous for its picturesque hill-top campus in Lavale and modern technical courses.",
+    "exams": ["SITEEE", "JEE Main", "MHT CET"],
+    "established": 2008
+  },
+  {
+    "id": "nmims-mumbai",
+    "name": "SVKM's NMIMS Mukesh Patel School of Technology",
+    "location": "Mumbai",
+    "state": "Maharashtra",
+    "fees": 350000,
+    "rating": 4.1,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Deemed",
+    "courses": [
+      { "name": "B.Tech Computer Engineering", "duration": "4 Years", "fees": 350000 },
+      { "name": "B.Tech Data Science", "duration": "4 Years", "fees": 350000 },
+      { "name": "MBA Tech (Integrated B.Tech + MBA)", "duration": "5 Years", "fees": 500000 }
+    ],
+    "placements": {
+      "averagePackage": 1050000,
+      "highestPackage": 5780000,
+      "topRecruiters": ["Barclays", "Oracle", "Goldman Sachs", "Infosys"]
+    },
+    "reviews": [
+      {
+        "id": "r43",
+        "author": "Aniket Sanghavi",
+        "rating": 4.2,
+        "comment": "Located right in Vile Parle, Mumbai. Excellent exposure to corporate culture and great internships.",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "r44",
+        "author": "Mansi Shah",
+        "rating": 4.0,
+        "comment": "Strict rules about 80% attendance, but the corporate placements and infrastructure are fantastic.",
+        "date": "2026-04-05"
+      },
+      {
+        "id": "r45",
+        "author": "Deepesh Mehta",
+        "rating": 4.1,
+        "comment": "The MBA Tech course is highly industry-relevant, giving you both technical and business knowledge.",
+        "date": "2026-04-28"
+      }
+    ],
+    "overview": "NMIMS MPSTME is a premier private engineering school in Mumbai, known for its strong corporate connect, city campus vibe, and unique integrated dual-degree programs.",
+    "exams": ["NMIMS-NPAT", "JEE Main"],
+    "established": 2003
+  },
+  {
+    "id": "pes-bangalore",
+    "name": "PES University (PESU)",
+    "location": "Bengaluru",
+    "state": "Karnataka",
+    "fees": 450000,
+    "rating": 4.3,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Private",
+    "courses": [
+      { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 450000 },
+      { "name": "B.Tech Electronics and Communication", "duration": "4 Years", "fees": 400000 },
+      { "name": "M.Tech Cloud Computing", "duration": "2 Years", "fees": 200000 }
+    ],
+    "placements": {
+      "averagePackage": 1200000,
+      "highestPackage": 6500000,
+      "topRecruiters": ["Microsoft", "Amazon", "Akamai", "Cisco"]
+    },
+    "reviews": [
+      {
+        "id": "r46",
+        "author": "Supriya M",
+        "rating": 4.4,
+        "comment": "Academic rigor is very high, but the placement opportunities are easily among the best in South India.",
+        "date": "2026-01-15"
+      },
+      {
+        "id": "r47",
+        "author": "Nikhil Murthy",
+        "rating": 4.2,
+        "comment": "Regular assessments keep you on your toes, but you are very well trained for placements.",
+        "date": "2026-03-12"
+      },
+      {
+        "id": "r48",
+        "author": "Rakshith Shetty",
+        "rating": 4.3,
+        "comment": "Stellar campus facilities (especially the auditorium and sports fields). Outstanding coding groups.",
+        "date": "2026-05-09"
+      }
+    ],
+    "overview": "PES University, located on Ring Road in Bangalore, is a top-tier private university in Karnataka, popular for its strict academics and outstanding CS placements.",
+    "exams": ["PESSAT", "KCET", "JEE Main"],
+    "established": 1972
+  },
+  {
+    "id": "iit-madras",
+    "name": "Indian Institute of Technology Madras (IITM)",
+    "location": "Chennai",
+    "state": "Tamil Nadu",
+    "fees": 220000,
+    "rating": 5.0,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Government",
+    "courses": [
+      { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 220000 },
+      { "name": "B.Tech Naval Architecture and Ocean Engineering", "duration": "4 Years", "fees": 220000 },
+      { "name": "M.Tech Data Science", "duration": "2 Years", "fees": 120000 }
+    ],
+    "placements": {
+      "averagePackage": 2240000,
+      "highestPackage": 19800000,
+      "topRecruiters": ["Google", "Apple", "Rubrik", "Jane Street"]
+    },
+    "reviews": [
+      {
+        "id": "r49",
+        "author": "Vignesh Raj",
+        "rating": 5.0,
+        "comment": "Ranked #1 by NIRF for years, and it absolutely lives up to the reputation. The research park is stellar.",
+        "date": "2026-02-28"
+      },
+      {
+        "id": "r50",
+        "author": "Meenakshi Sundaram",
+        "rating": 5.0,
+        "comment": "Beautiful campus inside a national park, with deers roaming around. Coding culture is unmatched.",
+        "date": "2026-04-12"
+      },
+      {
+        "id": "r51",
+        "author": "Aditya Krishnan",
+        "rating": 5.0,
+        "comment": "Outstanding student tech teams (Hyperloop, Formula Student). Unbelievable corporate connect.",
+        "date": "2026-05-18"
+      }
+    ],
+    "overview": "IIT Madras is a legendary public engineering university in Chennai, consistently ranked as the top engineering college in India by NIRF, hosting a renowned research park.",
+    "exams": ["JEE Advanced", "GATE"],
+    "established": 1959
+  },
+  {
+    "id": "psg-tech",
+    "name": "PSG College of Technology",
+    "location": "Coimbatore",
+    "state": "Tamil Nadu",
+    "fees": 85000,
+    "rating": 4.5,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Private",
+    "courses": [
+      { "name": "B.Tech Information Technology", "duration": "4 Years", "fees": 85000 },
+      { "name": "B.E. Production Engineering (Sandwich)", "duration": "5 Years", "fees": 95000 },
+      { "name": "M.E. Computer Science and Engineering", "duration": "2 Years", "fees": 60000 }
+    ],
+    "placements": {
+      "averagePackage": 880000,
+      "highestPackage": 3800000,
+      "topRecruiters": ["Cisco", "Intel", "TCS", "Robert Bosch"]
+    },
+    "reviews": [
+      {
+        "id": "r52",
+        "author": "Siddharth P",
+        "rating": 4.6,
+        "comment": "Highly respected in the industrial sector. The sandwich courses provide outstanding factory floor experience.",
+        "date": "2026-01-20"
+      },
+      {
+        "id": "r53",
+        "author": "Kavya Murugan",
+        "rating": 4.4,
+        "comment": "Academics and laboratory work are rigorous. Placements in core manufacturing and IT are stellar.",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "r54",
+        "author": "Manoj Kumar",
+        "rating": 4.5,
+        "comment": "PSG has an outstanding brand name in Tamil Nadu. Highly supportive alumni network.",
+        "date": "2026-04-15"
+      }
+    ],
+    "overview": "PSG College of Technology, established in 1951 in Coimbatore, is a premier private-aided engineering college, famous for its heavy industrial collaborations and practical sandwich courses.",
+    "exams": ["TNEA", "JEE Main"],
+    "established": 1951
+  },
+  {
+    "id": "heritage-kolkata",
+    "name": "Heritage Institute of Technology (HIT)",
+    "location": "Kolkata",
+    "state": "West Bengal",
+    "fees": 110000,
+    "rating": 3.8,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Private",
+    "courses": [
+      { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 110000 },
+      { "name": "B.Tech Applied Electronics and Instrumentation", "duration": "4 Years", "fees": 110000 },
+      { "name": "M.Tech Renewable Energy", "duration": "2 Years", "fees": 90000 }
+    ],
+    "placements": {
+      "averagePackage": 520000,
+      "highestPackage": 1800000,
+      "topRecruiters": ["TCS", "Cognizant", "Wipro", "Infosys"]
+    },
+    "reviews": [
+      {
+        "id": "r55",
+        "author": "Aritra Sen",
+        "rating": 3.9,
+        "comment": "The campus is beautifully designed and very clean. Decent facilities and library.",
+        "date": "2026-02-14"
+      },
+      {
+        "id": "r56",
+        "author": "Priyanka Roy",
+        "rating": 3.7,
+        "comment": "Mass recruitments are the main option, but if you do coding on your own, you can clear off-campus rounds easily.",
+        "date": "2026-03-24"
+      },
+      {
+        "id": "r57",
+        "author": "Rahul Banerjee",
+        "rating": 3.8,
+        "comment": "Faculty members are supportive and helpful. Great labs and standard infrastructure.",
+        "date": "2026-05-02"
+      }
+    ],
+    "overview": "Heritage Institute of Technology is a prominent private engineering college in Kolkata, West Bengal, recognized for its green campus and steady placement history.",
+    "exams": ["WBJEE", "JEE Main"],
+    "established": 2001
+  },
+  {
+    "id": "jamia-hamdard",
+    "name": "Jamia Hamdard University",
+    "location": "New Delhi",
+    "state": "Delhi",
+    "fees": 165000,
+    "rating": 3.7,
+    "image": "/images/college-placeholder.jpg",
+    "type": "Deemed",
+    "courses": [
+      { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 165000 },
+      { "name": "B.Pharm Pharmacy", "duration": "4 Years", "fees": 140000 },
+      { "name": "M.Tech Information Security", "duration": "2 Years", "fees": 110000 }
+    ],
+    "placements": {
+      "averagePackage": 580000,
+      "highestPackage": 1600000,
+      "topRecruiters": ["Wipro", "TCS", "HCL", "Ranbaxy"]
+    },
+    "reviews": [
+      {
+        "id": "r58",
+        "author": "Saad Khan",
+        "rating": 3.8,
+        "comment": "Excellent pharmacy department (ranked #1 in India!). Engineering departments are decent and growing.",
+        "date": "2026-01-18"
+      },
+      {
+        "id": "r59",
+        "author": "Fiza Shaikh",
+        "rating": 3.6,
+        "comment": "Campus is located inside South Delhi. Lots of green cover and peaceful atmosphere.",
+        "date": "2026-03-12"
+      },
+      {
+        "id": "r60",
+        "author": "Manish Gupta",
+        "rating": 3.7,
+        "comment": "Good library facility and decent computer science labs. Average placements.",
+        "date": "2026-04-25"
+      }
+    ],
+    "overview": "Jamia Hamdard is a reputable deemed university in Hamdard Nagar, New Delhi, famous globally for its pharmaceutical research and growing tech division.",
+    "exams": ["JEE Main", "NEET"],
+    "established": 1989
+  }
+]
