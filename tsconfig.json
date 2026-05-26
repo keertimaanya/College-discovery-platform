@@ -1,25 +1,26 @@
 {
+  // TypeScript compiler configurations for our Next.js application
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-    "incremental": true,
+    "target": "ES2017", // Specifies the JavaScript version output
+    "lib": ["dom", "dom.iterable", "esnext"], // Libraries to be included in the compilation
+    "allowJs": true, // Allow JavaScript files to be compiled alongside TS
+    "skipLibCheck": true, // Skip type checking of declaration files (.d.ts) for speed
+    "strict": true, // Enable all strict type-checking options for robust safety
+    "noEmit": true, // Do not emit outputs (Next.js bundler handles output compilation)
+    "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules
+    "module": "esnext", // Specifies module code generation
+    "moduleResolution": "bundler", // Resolves modules using a modern bundler logic
+    "resolveJsonModule": true, // Allows importing static .json database modules
+    "isolatedModules": true, // Ensures each file can be safely transpiled independently
+    "jsx": "react-jsx", // Support for React's modern JSX rendering engine
+    "incremental": true, // Enable incremental compilation for faster build times
     "plugins": [
       {
-        "name": "next"
+        "name": "next" // Next.js specific TS language server plugin
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"] // Path mapping alias (replaces ../../ relative imports)
     }
   },
   "include": [
@@ -30,5 +31,5 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"] // Folders excluded from TypeScript analysis
 }
