@@ -6,18 +6,21 @@ export function useColleges(filters: FilterState) {
   const [filteredColleges, setFilteredColleges] = useState<College[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
+  // Destructure primitive values to use strictly in the useEffect dependency array.
+  // This guarantees that the filtering effect only triggers when an actual filter value
+  // changes, making it 100% immune to infinite rendering loops caused by object reference shifts.
+  const { search, state, type, minFees, maxFees, minRating, exam } = filters;
+
   useEffect(() => {
     setIsLoading(true);
 
-    // Small simulated network latency (150ms) to allow the loading spinner
-    // to give professional, responsive feedback to the user on filter changes.
     const handler = setTimeout(() => {
       const allColleges = collegesData as College[];
 
       const filtered = allColleges.filter((college) => {
         // Search filter: Matches college name or location (case-insensitive)
-        if (filters.search) {
-          const query = filters.search.toLowerCase();
+        if (search) {
+          const query = search.toLowerCase();
           const matchesName = college.name.toLowerCase().includes(query);
           const matchesLocation = college.location.toLowerCase().includes(query);
           if (!matchesName && !matchesLocation) {
@@ -26,27 +29,27 @@ export function useColleges(filters: FilterState) {
         }
 
         // State filter
-        if (filters.state && college.state !== filters.state) {
+        if (state && college.state !== state) {
           return false;
         }
 
         // Type filter (Government | Private | Deemed)
-        if (filters.type && college.type !== filters.type) {
+        if (type && college.type !== type) {
           return false;
         }
 
-        // Fees range filter (checks if average college fees fall within bounds)
-        if (college.fees < filters.minFees || college.fees > filters.maxFees) {
+        // Fees range filter
+        if (college.fees < minFees || college.fees > maxFees) {
           return false;
         }
 
-        // Rating filter (checks if rating is at least the minimum selected rating)
-        if (college.rating < filters.minRating) {
+        // Rating filter
+        if (college.rating < minRating) {
           return false;
         }
 
         // Exam filter
-        if (filters.exam && !college.exams.includes(filters.exam)) {
+        if (exam && !college.exams.includes(exam)) {
           return false;
         }
 
@@ -58,7 +61,7 @@ export function useColleges(filters: FilterState) {
     }, 150);
 
     return () => clearTimeout(handler);
-  }, [filters]);
+  }, [search, state, type, minFees, maxFees, minRating, exam]);
 
   return {
     filteredColleges,
