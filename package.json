@@ -1,6 +1,7 @@
 {
   "name": "college-discovery",
   "version": "0.1.0",
+  "description": "A premium College Discovery Platform built using Next.js 14, TypeScript, and Tailwind CSS.",
   "private": true,
   "scripts": {
     "dev": "next dev",
