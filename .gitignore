@@ -1,6 +1,12 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# GitIgnore Configuration File
+# -----------------------------------------------------------------------------
+# This file specifies intentionally untracked files and directories that Git
+# should ignore. It prevents heavy local compilation folders (like node_modules
+# and .next) or private local environment keys (.env files) from being committed
+# or pushed to your public GitHub repository.
+# -----------------------------------------------------------------------------
 
-# dependencies
+# dependencies (heavy local downloads from npm install)
 /node_modules
 /.pnp
 .pnp.*
@@ -10,32 +16,32 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
+# testing reports
 /coverage
 
-# next.js
+# next.js local compilation build caches
 /.next/
 /out/
 
-# production
+# production output builds
 /build
 
-# misc
+# misc system junk
 .DS_Store
 *.pem
 
-# debug
+# debug log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# local env keys (keeps private credentials secret)
 .env*
 
-# vercel
+# vercel local cloud setup credentials
 .vercel
 
-# typescript
+# typescript incremental compilation cache outputs
 *.tsbuildinfo
 next-env.d.ts
