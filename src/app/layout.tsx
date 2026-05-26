@@ -4,6 +4,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { SavedProvider } from "@/context/SavedContext";
 import { CompareProvider } from "@/context/CompareContext";
+import { NavigationProgressBar } from "@/components/layout/NavigationProgressBar";
 
 export const metadata: Metadata = {
   title: "College Discovery Platform",
@@ -20,6 +21,9 @@ export default function RootLayout({
       <body className="flex flex-col min-h-screen bg-gray-50 text-gray-900 antialiased font-sans">
         <SavedProvider>
           <CompareProvider>
+            {/* Top thin loading progress bar */}
+            <NavigationProgressBar />
+            
             <Navbar />
             <main className="flex-grow">{children}</main>
             <Footer />
