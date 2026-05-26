@@ -12,13 +12,14 @@ import { useSaved } from "@/context/SavedContext";
 import { useCompare } from "@/context/CompareContext";
 
 interface CollegeDetailPageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
 export default function CollegeDetailPage({ params }: CollegeDetailPageProps) {
-  const { id } = params;
+  const resolvedParams = React.use(params);
+  const { id } = resolvedParams;
   const { isSaved, toggleSaved } = useSaved();
   const { isInCompare, addToCompare, removeFromCompare } = useCompare();
 
