@@ -1,5 +1,6 @@
 "use client";
 
+// Stable homepage with referentially optimized callback handlers (Vercel sync trigger)
 import React, { useState } from "react";
 import { FilterState } from "@/types/college";
 import { useColleges } from "@/hooks/useColleges";
