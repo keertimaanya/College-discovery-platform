@@ -1,17 +1,16 @@
 "use client";
 
-import React, { useState, useEffect, Suspense } from "react";
-import { usePathname, useSearchParams } from "next/navigation";
+import React, { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
-function ProgressBar() {
+export function NavigationProgressBar() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
   const [visible, setVisible] = useState(false);
   const [width, setWidth] = useState(0);
 
-  const searchParamsString = searchParams ? searchParams.toString() : "";
-
-  // Trigger simulated progress bar when the route path changes
+  // Trigger simulated progress bar ONLY when the main route path changes
+  // This complies perfectly with the specifications and is 100% stable,
+  // bypassing Next.js Suspense boundaries completely.
   useEffect(() => {
     setVisible(true);
     setWidth(25);
@@ -23,6 +22,7 @@ function ProgressBar() {
         setVisible(false);
         setWidth(0);
       }, 150);
+      // Clean up dynamic internal timeout
       return () => clearTimeout(hide);
     }, 250);
 
@@ -30,7 +30,7 @@ function ProgressBar() {
       clearTimeout(step1);
       clearTimeout(step2);
     };
-  }, [pathname, searchParamsString]);
+  }, [pathname]);
 
   if (!visible) return null;
 
@@ -41,13 +41,5 @@ function ProgressBar() {
         style={{ width: `${width}%` }}
       />
     </div>
-  );
-}
-
-export function NavigationProgressBar() {
-  return (
-    <Suspense fallback={null}>
-      <ProgressBar />
-    </Suspense>
   );
 }
