@@ -15,10 +15,27 @@ export function CompareTable() {
     .map((id) => (collegesData as College[]).find((c) => c.id === id))
     .filter(Boolean) as College[];
 
-  // 1. Minimum Colleges Guard (At least 2 are required to compare)
-  if (selectedColleges.length < 2) {
+  // 1. Empty State: 0 colleges added to compare list
+  if (selectedColleges.length === 0) {
     return (
-      <div className="bg-white border border-gray-200 rounded-2xl p-12 text-center shadow-sm flex flex-col items-center justify-center min-h-[30vh]">
+      <div className="bg-white border border-gray-200 rounded-2xl p-12 text-center shadow-sm flex flex-col items-center justify-center min-h-[30vh] animate-fade-in">
+        <div className="h-14 w-14 bg-gray-50 rounded-full flex items-center justify-center text-2xl mb-4 border border-gray-150">
+          📊
+        </div>
+        <h3 className="text-base font-bold text-gray-900 mb-1.5">
+          Start adding colleges to compare
+        </h3>
+        <p className="text-gray-500 text-xs sm:text-sm max-w-sm leading-relaxed">
+          Use the search bar above to select two or three colleges and compare their courses, placements, and ratings side-by-side.
+        </p>
+      </div>
+    );
+  }
+
+  // 2. Empty State: 1 college added to compare list (requires at least 2)
+  if (selectedColleges.length === 1) {
+    return (
+      <div className="bg-white border border-gray-200 rounded-2xl p-12 text-center shadow-sm flex flex-col items-center justify-center min-h-[30vh] animate-fade-in">
         <div className="h-14 w-14 bg-gray-50 rounded-full flex items-center justify-center text-2xl mb-4 border border-gray-150">
           📊
         </div>
@@ -26,7 +43,7 @@ export function CompareTable() {
           Select at least 2 colleges to compare
         </h3>
         <p className="text-gray-500 text-xs sm:text-sm max-w-sm leading-relaxed">
-          Search and select at least two or three colleges above to compare fees, ratings, and placement records side-by-side.
+          You have selected one college. Add at least one more college to begin the side-by-side comparison.
         </p>
       </div>
     );
