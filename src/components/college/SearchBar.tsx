@@ -12,14 +12,15 @@ export function SearchBar({ onSearchChange, totalCount }: SearchBarProps) {
   const [localSearch, setLocalSearch] = useState("");
 
   // Debouncing effect: Wait 300ms after the user stops typing before pushing the query to filters.
-  // This drastically improves performance by avoiding querying on every single keystroke.
+  // We strictly depend ONLY on localSearch here. This guarantees the debouncer is never reset
+  // or re-triggered by parent re-renders or inline function reference changes.
   useEffect(() => {
     const handler = setTimeout(() => {
       onSearchChange(localSearch);
     }, 300);
 
     return () => clearTimeout(handler);
-  }, [localSearch, onSearchChange]);
+  }, [localSearch]);
 
   return (
     <div className="w-full space-y-2">
