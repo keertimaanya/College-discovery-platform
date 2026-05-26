@@ -6,7 +6,7 @@
     "state": "Maharashtra",
     "fees": 220000,
     "rating": 4.9,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=600&q=80",
     "type": "Government",
     "courses": [
       { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 220000 },
@@ -52,7 +52,7 @@
     "state": "Delhi",
     "fees": 225000,
     "rating": 4.8,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=600&q=80",
     "type": "Government",
     "courses": [
       { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 225000 },
@@ -98,7 +98,7 @@
     "state": "Karnataka",
     "fees": 150000,
     "rating": 4.6,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=600&q=80",
     "type": "Government",
     "courses": [
       { "name": "B.Tech Information Technology", "duration": "4 Years", "fees": 150000 },
@@ -144,7 +144,7 @@
     "state": "Rajasthan",
     "fees": 540000,
     "rating": 4.8,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1498243691581-b148c376ef85?auto=format&fit=crop&w=600&q=80",
     "type": "Private",
     "courses": [
       { "name": "B.E. Computer Science", "duration": "4 Years", "fees": 540000 },
@@ -190,7 +190,7 @@
     "state": "Tamil Nadu",
     "fees": 198000,
     "rating": 4.2,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&w=600&q=80",
     "type": "Deemed",
     "courses": [
       { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 198000 },
@@ -236,7 +236,7 @@
     "state": "Karnataka",
     "fees": 435000,
     "rating": 4.4,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1607013407627-6ee814329547?auto=format&fit=crop&w=600&q=80",
     "type": "Deemed",
     "courses": [
       { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 435000 },
@@ -282,7 +282,7 @@
     "state": "West Bengal",
     "fees": 223000,
     "rating": 4.7,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=80",
     "type": "Government",
     "courses": [
       { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 223000 },
@@ -328,7 +328,7 @@
     "state": "Maharashtra",
     "fees": 135000,
     "rating": 4.5,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=600&q=80",
     "type": "Government",
     "courses": [
       { "name": "B.Tech Computer Engineering", "duration": "4 Years", "fees": 135000 },
@@ -374,7 +374,7 @@
     "state": "Karnataka",
     "fees": 250000,
     "rating": 4.4,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1527891751199-7225231a68dd?auto=format&fit=crop&w=600&q=80",
     "type": "Private",
     "courses": [
       { "name": "B.E. Computer Science and Engineering", "duration": "4 Years", "fees": 250000 },
@@ -420,7 +420,7 @@
     "state": "Tamil Nadu",
     "fees": 260000,
     "rating": 4.1,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc?auto=format&fit=crop&w=600&q=80",
     "type": "Deemed",
     "courses": [
       { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 260000 },
@@ -466,7 +466,7 @@
     "state": "West Bengal",
     "fees": 50000,
     "rating": 4.8,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1598986646512-93e5bd240d36?auto=format&fit=crop&w=600&q=80",
     "type": "Government",
     "courses": [
       { "name": "B.E. Computer Science and Engineering", "duration": "4 Years", "fees": 2400 },
@@ -512,7 +512,7 @@
     "state": "Delhi",
     "fees": 219000,
     "rating": 4.6,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1525920980468-f140e8749a21?auto=format&fit=crop&w=600&q=80",
     "type": "Government",
     "courses": [
       { "name": "B.Tech Computer Science", "duration": "4 Years", "fees": 219000 },
@@ -558,7 +558,7 @@
     "state": "Delhi",
     "fees": 219000,
     "rating": 4.5,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1588072401702-7a577d6747f5?auto=format&fit=crop&w=600&q=80",
     "type": "Government",
     "courses": [
       { "name": "B.Tech Computer Science and Engineering (IoT)", "duration": "4 Years", "fees": 219000 },
@@ -604,7 +604,7 @@
     "state": "Maharashtra",
     "fees": 300000,
     "rating": 3.9,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?auto=format&fit=crop&w=600&q=80",
     "type": "Private",
     "courses": [
       { "name": "B.Tech Artificial Intelligence and Machine Learning", "duration": "4 Years", "fees": 300000 },
@@ -650,7 +650,7 @@
     "state": "Maharashtra",
     "fees": 350000,
     "rating": 4.1,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=600&q=80",
     "type": "Deemed",
     "courses": [
       { "name": "B.Tech Computer Engineering", "duration": "4 Years", "fees": 350000 },
@@ -696,7 +696,7 @@
     "state": "Karnataka",
     "fees": 450000,
     "rating": 4.3,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=600&q=80",
     "type": "Private",
     "courses": [
       { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 450000 },
@@ -742,7 +742,7 @@
     "state": "Tamil Nadu",
     "fees": 220000,
     "rating": 5.0,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80",
     "type": "Government",
     "courses": [
       { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 220000 },
@@ -788,7 +788,7 @@
     "state": "Tamil Nadu",
     "fees": 85000,
     "rating": 4.5,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80",
     "type": "Private",
     "courses": [
       { "name": "B.Tech Information Technology", "duration": "4 Years", "fees": 85000 },
@@ -834,7 +834,7 @@
     "state": "West Bengal",
     "fees": 110000,
     "rating": 3.8,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
     "type": "Private",
     "courses": [
       { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 110000 },
@@ -880,7 +880,7 @@
     "state": "Delhi",
     "fees": 165000,
     "rating": 3.7,
-    "image": "/images/college-placeholder.jpg",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80",
     "type": "Deemed",
     "courses": [
       { "name": "B.Tech Computer Science and Engineering", "duration": "4 Years", "fees": 165000 },

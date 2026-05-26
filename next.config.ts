@@ -9,9 +9,14 @@ import type { NextConfig } from "next";
  * -----------------------------------------------------------------------------
  */
 const nextConfig: NextConfig = {
-  // Config options can be added here in the future if required, for example:
-  // reactStrictMode: true, // Enables strict check rules for rendering bugs
-  // images: { domains: ["images.unsplash.com"] } // Whitelists external assets
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
