@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CollegeDiscover 🎓
 
-## Getting Started
+An advanced, premium College Discovery Platform built to help students explore, compare, and save top-tier engineering and technology institutions across India.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo & Screenshots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Live Demo**: [https://college-discovery-platform.vercel.app](https://college-discovery-platform.vercel.app) *(To be connected after Vercel deployment)*
+* **Screenshot**: *(To be added after deployment)*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+Our platform leverages a modern, premium frontend tech stack:
 
-To learn more about Next.js, take a look at the following resources:
+* ![Next.js](https://img.shields.gradient.is/badge/Next.js%2014-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) — Core React Framework (App Router & Dynamic Routing)
+* ![TypeScript](https://img.shields.gradient.is/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) — Static Typing & Safety
+* ![Tailwind CSS](https://img.shields.gradient.is/badge/Tailwind%20CSS%20v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) — High-Performance Utility-First Styling
+* ![React Context](https://img.shields.gradient.is/badge/React%20Context-61DAFB?style=for-the-badge&logo=react&logoColor=black) — Global State Management
+* ![Vercel](https://img.shields.gradient.is/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) — Production Cloud Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Features Built
 
-## Deploy on Vercel
+Our dashboard is equipped with four core engineering features:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Multi-Faceted Search & Filters**: A dynamic search panel featuring 300ms debouncing, live result counts, and detailed filters mapping states, type options (Government, Private, Deemed), yearly fees bounds, ratings range, and entrance exams.
+2. **Side-by-Side Comparison Engine**: An interactive grid supporting up to 3 active slots, search autocomplete selections, and dynamic row highlights identifying the lowest tuition, highest ratings, and best placement averages.
+3. **Persistent Bookmarks System**: An authorized favorites catalog syncing automatically with client-side storage (`localStorage`) so selections persist across browser sessions.
+4. **Client-Side Authentication Protection**: Custom login and signup portals with full field confirmations, password checks, and smart redirection back to blocked routes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ⚙️ How to Run Locally
+
+Get the project running on your local machine in under a minute:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/keertimaanya/College-discovery-platform.git
+   cd College-discovery-platform
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in Browser**:
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the dashboard in action!
+
+---
+
+> 📝 **Note on Data Architecture**: This application uses mock JSON data situated inside `src/data/colleges.json` to simulate API responses. In a production environment, these local JSON structures would be seamlessly replaced by server-side database queries and secure REST/GraphQL API backend endpoints.
