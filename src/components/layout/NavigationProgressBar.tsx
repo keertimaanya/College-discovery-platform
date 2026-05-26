@@ -9,6 +9,8 @@ function ProgressBar() {
   const [visible, setVisible] = useState(false);
   const [width, setWidth] = useState(0);
 
+  const searchParamsString = searchParams ? searchParams.toString() : "";
+
   // Trigger simulated progress bar when the route path changes
   useEffect(() => {
     setVisible(true);
@@ -28,7 +30,7 @@ function ProgressBar() {
       clearTimeout(step1);
       clearTimeout(step2);
     };
-  }, [pathname, searchParams]);
+  }, [pathname, searchParamsString]);
 
   if (!visible) return null;
 
