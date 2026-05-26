@@ -24,9 +24,35 @@ export default function Home() {
   // Core hook performs simulated network loading and filters the mock database
   const { filteredColleges, totalCount, isLoading } = useColleges(filters);
 
-  const handleClearFilters = () => {
+  // Memoized stable filter changer with reference comparison
+  const handleFilterChange = React.useCallback((updater: (prev: FilterState) => FilterState) => {
+    setFilters((prev) => {
+      const next = updater(prev);
+      if (
+        prev.search === next.search &&
+        prev.state === next.state &&
+        prev.type === next.type &&
+        prev.minFees === next.minFees &&
+        prev.maxFees === next.maxFees &&
+        prev.minRating === next.minRating &&
+        prev.exam === next.exam
+      ) {
+        return prev;
+      }
+      return next;
+    });
+  }, []);
+
+  const handleClearFilters = React.useCallback(() => {
     setFilters(initialFilters);
-  };
+  }, []);
+
+  const handleSearchChange = React.useCallback((value: string) => {
+    setFilters((prev) => {
+      if (prev.search === value) return prev;
+      return { ...prev, search: value };
+    });
+  }, []);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 space-y-8 animate-fade-in">
@@ -42,9 +68,7 @@ export default function Home() {
 
       {/* 2. Search Section */}
       <SearchBar
-        onSearchChange={(value) =>
-          setFilters((prev) => ({ ...prev, search: value }))
-        }
+        onSearchChange={handleSearchChange}
         totalCount={totalCount}
       />
 
@@ -81,7 +105,7 @@ export default function Home() {
         <aside className="hidden lg:block w-1/4 shrink-0 sticky top-24">
           <CollegeFilters
             filters={filters}
-            onFilterChange={setFilters}
+            onFilterChange={handleFilterChange}
             onClearFilters={handleClearFilters}
           />
         </aside>
@@ -130,7 +154,7 @@ export default function Home() {
             <div className="p-5">
               <CollegeFilters
                 filters={filters}
-                onFilterChange={setFilters}
+                onFilterChange={handleFilterChange}
                 onClearFilters={handleClearFilters}
               />
             </div>
