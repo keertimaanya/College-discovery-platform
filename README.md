@@ -6,8 +6,9 @@ An advanced, premium College Discovery Platform built to help students explore, 
 
 ## 🚀 Live Demo & Screenshots
 
-* **Live Demo**: [https://college-discovery-platform.vercel.app](https://college-discovery-platform.vercel.app) *(To be connected after Vercel deployment)*
-* **Screenshot**: *(To be added after deployment)*
+* **Live Demo**: [[https://college-discovery-platform.vercel.app](https://college-discovery-platform-pi-drab.vercel.app/)(https://college-discovery-platform.vercel.app) 
+* **Screenshot**: *(<img width="1890" height="902" alt="image" src="https://github.com/user-attachments/assets/79ee0172-8d1f-4d0e-894f-456444e626a7" />
+)*
 
 ---
 
